@@ -1,0 +1,24 @@
+{
+    "name": "dp-document/facades",
+    "description": "Microservice facade collection",
+    "type": "library",
+    "version": "1.3.0",
+    "require": {
+        "php": ">= 7.1.3",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "DpDocument\\Facades\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DpDocument\\Facades\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
